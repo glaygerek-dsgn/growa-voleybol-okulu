@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galeri — Growa Voleybol Okulu</title>
+  <meta name="description" content="Growa antrenmanlarından, yaz okulu kamplarından ve hazırlık maçlarından görseller." />
+  <meta name="theme-color" content="#1A2A44" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="nav scrolled" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo" aria-label="Growa anasayfa">
+        <img src="assets/img/logo.svg" alt="Growa" />
+      </a>
+      <nav class="nav__links" aria-label="Ana menü">
+        <a href="index.html#hakkimizda">Hakkımızda</a>
+        <a href="index.html#programlar">Programlar</a>
+        <a href="index.html#yaz-okulu">Yaz Okulu</a>
+        <a href="index.html#kadro">Kadro</a>
+        <a href="galeri.html" class="active">Galeri</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+      <a href="index.html#yaz-okulu" class="btn btn--primary nav__cta">Kayıt Ol</a>
+      <button class="nav__burger" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Galeri</h1>
+      <p>Antrenmanlarımızdan, yaz okulu kamplarımızdan ve hazırlık maçlarımızdan kareler.</p>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--bg);">
+    <div class="container">
+
+      <div class="gallery-filters" role="tablist" aria-label="Galeri filtreleri">
+        <button type="button" class="active" data-filter="all">Tümü</button>
+        <button type="button" data-filter="antrenman">Antrenmanlar</button>
+        <button type="button" data-filter="yaz-okulu">Yaz Okulu</button>
+        <button type="button" data-filter="mac">Hazırlık Maçları</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <a class="gallery-item" data-category="antrenman" href="https://images.pexels.com/photos/9633712/pexels-photo-9633712.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/9633712/pexels-photo-9633712.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Salon antrenmanı" />
+        </a>
+        <a class="gallery-item" data-category="yaz-okulu" href="https://images.pexels.com/photos/1080884/pexels-photo-1080884.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/1080884/pexels-photo-1080884.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Plaj voleybolu" />
+        </a>
+        <a class="gallery-item" data-category="mac" href="https://images.pexels.com/photos/9012567/pexels-photo-9012567.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/9012567/pexels-photo-9012567.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hazırlık maçı" />
+        </a>
+        <a class="gallery-item" data-category="antrenman" href="https://images.pexels.com/photos/6203560/pexels-photo-6203560.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/6203560/pexels-photo-6203560.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Voleybol antrenmanı" />
+        </a>
+        <a class="gallery-item" data-category="mac" href="https://images.pexels.com/photos/8224725/pexels-photo-8224725.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/8224725/pexels-photo-8224725.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Voleybol turnuvası" />
+        </a>
+        <a class="gallery-item" data-category="yaz-okulu" href="https://images.pexels.com/photos/6311584/pexels-photo-6311584.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/6311584/pexels-photo-6311584.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Yaz voleybol kampı" />
+        </a>
+        <a class="gallery-item" data-category="antrenman" href="https://images.pexels.com/photos/6203598/pexels-photo-6203598.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/6203598/pexels-photo-6203598.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Smaç anı" />
+        </a>
+        <a class="gallery-item" data-category="mac" href="https://images.pexels.com/photos/6311388/pexels-photo-6311388.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/6311388/pexels-photo-6311388.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Genç takım voleybol maçı" />
+        </a>
+        <a class="gallery-item" data-category="yaz-okulu" href="https://images.pexels.com/photos/9633705/pexels-photo-9633705.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/9633705/pexels-photo-9633705.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Yaz okulu voleybol seansı" />
+        </a>
+        <a class="gallery-item" data-category="antrenman" href="https://images.pexels.com/photos/6203797/pexels-photo-6203797.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/6203797/pexels-photo-6203797.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Servis çalışması" />
+        </a>
+        <a class="gallery-item" data-category="mac" href="https://images.pexels.com/photos/9012572/pexels-photo-9012572.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/9012572/pexels-photo-9012572.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Voleybol maç anı" />
+        </a>
+        <a class="gallery-item" data-category="yaz-okulu" href="https://images.pexels.com/photos/1263348/pexels-photo-1263348.jpeg?auto=compress&cs=tinysrgb&w=1600">
+          <img src="https://images.pexels.com/photos/1263348/pexels-photo-1263348.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Yaz takımı voleybol" />
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Görsel önizleme">
+    <button class="lightbox__btn lightbox__close" id="lightboxClose" aria-label="Kapat">×</button>
+    <button class="lightbox__btn lightbox__prev" id="lightboxPrev" aria-label="Önceki">‹</button>
+    <img id="lightboxImg" src="" alt="" />
+    <button class="lightbox__btn lightbox__next" id="lightboxNext" aria-label="Sonraki">›</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/img/logo.svg" alt="Growa" class="logo-mini" style="filter:brightness(0) invert(1);" />
+          <p>Growa Voleybol Okulu — voleybolu sevdirir, sporcu yetiştirir, takım kurar.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="YouTube">YT</a>
+          </div>
+        </div>
+        <div>
+          <h4>Hızlı Linkler</h4>
+          <ul>
+            <li><a href="index.html#hakkimizda">Hakkımızda</a></li>
+            <li><a href="index.html#programlar">Programlar</a></li>
+            <li><a href="index.html#yaz-okulu">Yaz Okulu</a></li>
+            <li><a href="index.html#kadro">Kadro</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Sayfalar</h4>
+          <ul>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>İletişim</h4>
+          <ul>
+            <li>📍 Atatürk Mh. Spor Cd. No:12<br/>Beşiktaş / İstanbul</li>
+            <li>📞 +90 (555) 555 55 55</li>
+            <li>✉️ merhaba@growavoleybol.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">© <span id="year"></span> Growa Voleybol Okulu — Tüm hakları saklıdır.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>
